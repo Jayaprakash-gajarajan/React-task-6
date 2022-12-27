@@ -1,0 +1,41 @@
+.App {
+  /* padding-top: 80px; */
+  text-align: center;
+  color: white;
+  background-color: gray;
+  height: 100vh;
+}
+
+
+
+label {
+  width: 130px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.read {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#button {
+  font-size: 15px;
+  padding: 5px;
+  width: 20%;
+  border-radius: 50px;
+  background-color: blue !important;
+  border-style: none;
+}
+
+label,
+input {
+  margin: 10px;
+}
